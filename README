@@ -1,0 +1,24 @@
+# Installation and Build Guide for the bootstrap website
+
+Most information is taken from a youtube video here: https://youtu.be/0w0Q0y31qSg
+
+## Install Node Js
+
+Download and install Node 18.12.1 LTS from https://nodejs.org/en/
+
+## Configurre node project
+
+init the node project in the base folder (dewine_lab_website):
+npm init -y
+
+## Install Parcel in NPM
+
+npm install --save-dev parcel
+
+Note: I have changed the package.json to have the following script compile and run the bootstrap:
+npm run dev
+
+
+## Install Boostrap
+
+npm install bootstrap
