@@ -1,5 +1,10 @@
 @import "./abstracts/variables";
 
+body > .page-section {
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
 .team-member {
 margin-bottom: 3rem;
 text-align: center;
