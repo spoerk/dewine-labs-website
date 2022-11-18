@@ -10,37 +10,39 @@
   </head>
   <body id="page-top">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom justify-content-lg-start">
-      <div class="container px-5">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/img/logos/dewine_labs.svg" alt="DEWINE Labs" height="40">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                          <li><a class="dropdown-item" href="#">Blog Home</a></li>
-                          <li><a class="dropdown-item" href="#">Blog Post</a></li>
-                      </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                          <li><a class="dropdown-item" href="#">Portfolio Overview</a></li>
-                          <li><a class="dropdown-item" href="#">Portfolio Item</a></li>
-                      </ul>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
+    <header class="container py-4">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom justify-content-lg-start">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/img/logos/dewine_labs.svg" alt="DEWINE Labs" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                            <li><a class="dropdown-item" href="#">Blog Home</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Post</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                            <li><a class="dropdown-item" href="#">Portfolio Overview</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio Item</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
     <!-- /Navbar -->
 
     <!-- Hero -->
@@ -71,7 +73,7 @@
         <div class="row g-4 py-4 row-cols-1 row-cols-lg-3 text-center">
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-              <img src="./assets/img/consulting.svg" alt="DEWINE Labs" height="80">
+              <img src="./assets/img/consulting.svg" alt="DEWINE Labs" height="60">
             </div>
             <h3 class="fs-2">Consulting</h3>
             <p>We help companies design, build, and optimize wireless applications from ideation to qualification.
@@ -82,7 +84,7 @@
           </div>
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-              <img src="./assets/img/testing.svg" alt="DEWINE Labs" height="80">
+              <img src="./assets/img/testing.svg" alt="DEWINE Labs" height="60">
             </div>
             <h3 class="fs-2">Automated Testing</h3>
             <p>We test wireless protocols fully automated in our proprietary wireless simulation environment.
@@ -93,7 +95,7 @@
           </div>
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-              <img src="./assets/img/firmware.svg" alt="DEWINE Labs" height="80">
+              <img src="./assets/img/firmware.svg" alt="DEWINE Labs" height="60">
             </div>
             <h3 class="fs-2">Optimized Firmware</h3>
             <p>We sell highly-reliable firmware for chips to improve wireless communication performance.
@@ -180,30 +182,39 @@
       </div>
     </section>
     <!-- /Team -->
+    
+    <!-- Contact -->
+    <section class="page-section py-5 bg-primary" id="team">
+      <div class="container px-5">
+        <h2 class="pb-2 text-center fw-bold text-light">Contact Us</h2>
+        <p class="pb-2 text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+      </div>
+    </section>
+    <!-- /Contact -->
 
     <!-- Partners -->
-    <section class="page-section py-5 bg-light" id="team">
+    <section class="page-section py-5 bg-white" id="team">
       <div class="container px-5">
         <h2 class="pb-2 text-center fw-bold">Our Partners</h2>
         <p class="pb-2 text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
         <div class="row">
           <div class="col-xl-3 col-lg-6">
-            <div class="partner">
+            <div class="partner align-items-center">
                 <img class="mx-auto" src="assets/img/logos/tugraz.svg" alt="TU Graz logo">
             </div>
           </div>
           <div class="col-xl-3 col-lg-6">
-            <div class="partner">
+            <div class="partner align-items-center">
                 <img class="mx-auto" src="assets/img/logos/aws.svg" alt="AWS logo">
             </div>
           </div> 
           <div class="col-xl-3 col-lg-6">
-            <div class="partner">
+            <div class="partner align-items-center">
                 <img class="mx-auto" src="assets/img/logos/ffg.png" alt="FFG logo">
             </div>
           </div> 
           <div class="col-xl-3 col-lg-6">
-            <div class="partner">
+            <div class="partner align-items-center">
                 <img class="mx-auto" src="assets/img/logos/spg.png" alt="Science Park Graz logo">
             </div>
           </div>            
@@ -212,17 +223,18 @@
     </section>
     <!-- /Partners -->
 
+
     <!-- Footer -->
-    <footer class="page-section py-5 bg-white">
+    <footer class="page-section py-2 bg-light">
       <div>
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <!-- <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-        </ul>
-        <p class="text-center text-muted">© 2022 Company, Inc</p>
+        </ul> -->
+        <p class="text-center text-muted">© 2022 DEWINE Labs GmbH</p>
       </div>
     </footer>
     <!-- /Footer -->
