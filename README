@@ -22,3 +22,8 @@ npm run dev
 ## Install Boostrap
 
 npm install bootstrap
+
+
+
+TODO:
+Split things in HTML partials with posthtml-include: https://aileenrae.co.uk/blog/lets-build-a-landing-page-with-parcel/
