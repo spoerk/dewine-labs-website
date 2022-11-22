@@ -27,3 +27,10 @@ npm install bootstrap
 
 TODO:
 Split things in HTML partials with posthtml-include: https://aileenrae.co.uk/blog/lets-build-a-landing-page-with-parcel/
+
+
+IMPORTANT:
+publish new website version with npm with
+```
+npm run push-gh-pages
+```
