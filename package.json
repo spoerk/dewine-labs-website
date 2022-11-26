@@ -9,7 +9,7 @@
     "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
     "prebuild": "shx rm -rf dist/*",
     "build": "parcel build ./src/index.html --public-url ./",
-    "deploy": "gh-pages --dir=dist"
+    "deploy": "echo dewinelabs.com > ./dist/CNAME &&gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
