@@ -23,14 +23,28 @@ npm run dev
 
 npm install bootstrap
 
+## Developing the website
+To develop the website locally on your machine, use the following npm command:
+ ```
+ npm run start
+ ```
+
+
+## Publish a new version of the website
+To publish a website version, use the following npm command:
+```
+npm run build
+```
+
+Commit and push the existing changes to the master of the repo.
+Then, run the following npm command to publish the changes:
+```
+npm run deploy
+```
+
+
+
 
 
 TODO:
 Split things in HTML partials with posthtml-include: https://aileenrae.co.uk/blog/lets-build-a-landing-page-with-parcel/
-
-
-IMPORTANT:
-publish new website version with npm with
-```
-npm run push-gh-pages
-```
